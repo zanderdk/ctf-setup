@@ -1,6 +1,6 @@
-#My CTF setup
+# My CTF setup
 
-##discalimer
+## discalimer
 
 this is a product of years of ctf'ing, developed mainly doing ctf's with limited time so features are implented as fast as possible and therefore a lot of crap code was born here.
 
