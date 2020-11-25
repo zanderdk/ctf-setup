@@ -23,12 +23,12 @@ you should be ready
 
 ## Running
 
-just run ./attach.sh
+just run .`/attach.sh`
 
 inside attach.sh you find difrent ways of running the exploits both remote and local with diffrent versions of libc. :-)
 the program that you want to debug is also specified in attach.sh
 
-before running ./attach.sh you have to be inside a tmux session!!!!! as split mind uses tmux to split screens.
+before running `./attach.sh` you have to be inside a tmux session!!!!! as split mind uses tmux to split screens.
 pressing ctl-b followed by f and enter you can navigate tmux windows.
 
 now start developing exploit in exploit.py
@@ -41,7 +41,7 @@ https://docs.pwntools.com/en/stable/elf.html
 you can disable and enable aslr as you like in attach.sh
 
 breakpoints can be two things a absolut hex address to where you want to break:
-b `*(0xdeadbeef)`
+`b *(0xdeadbeef)`
 or `pie 0x5df` some offset into the pie file
 you can also do:
 
